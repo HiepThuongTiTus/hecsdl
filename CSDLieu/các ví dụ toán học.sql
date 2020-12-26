@@ -1,0 +1,8 @@
+DECLARE @code INT
+SET @code=(SELECT ASCII('A'))
+SELECT @code AS Code
+
+DECLARE @str NVARCHAR(255)
+SET @str=(SELECT UPPER('a'))
+SELECT @str AS Ti
+
